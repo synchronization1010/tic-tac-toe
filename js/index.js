@@ -1,7 +1,7 @@
 let red = true
 let score = [0, 0, 0, 0, 0, 0, 0, 0, 0]
-let victory = document.getElementById("victory-lbl")
-let turn = document.getElementById("turn-lbl")
+const victory = document.getElementById("victory-lbl")
+const turn = document.getElementById("turn-lbl")
 
 const btn1 = document.querySelector("#ttt1")
 const btn2 = document.querySelector("#ttt2")
