@@ -14,7 +14,6 @@ const btn8 = document.querySelector("#ttt8")
 const btn9 = document.querySelector("#ttt9")
 const allBtn = document.querySelectorAll(".ttt-btn")
 const reset = document.getElementById("reset-btn")
-console.log(allBtn)
 
 function victoryCheck() {
     let v1 = score[0] + score[1] + score[2]
